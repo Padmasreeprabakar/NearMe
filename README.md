@@ -1,5 +1,4 @@
 # Ex04 Places Around Me
-## Date: 2.05.2025
 
 ## AIM
 To develop a website to display details about the places around my house.
@@ -26,282 +25,138 @@ Execute the programs and publish them.
 
 ## CODE
 ```
-map.html
-
+imagemap.html
 <html>
-    <head>
-        <title>My City</title>
-    </head>
+    <head>imageapp</head>
+    <title>
+        imageapp
+    </title>
     <body>
-        <center>
-        <h1 >
-        <font color="lightblue" >AYAPPAKAM</font>
-        </h1>
-        <h3 > <font color ="black" > AARON MARIYAN A    REG NO: 212224040004 </font></h3>
-        
-            <img src="Screenshot 2025-05-02 153627.png" usemap="#MyCity" height ='510' width="1400">
-            <map name="MyCity">
-                <area shape="rect" coords="100,100,900,900" href="home.html" title="MY HOME">
-                <area shape="rect" coords="34,61,187,153" href="hall.html" title="SELVI MAHAL">
-                <area shape="rect" coords="1286,232,1414,328" href="hospital.html" title="VIRUTCHAM HOSPITAL">
-                <area shape="rect" coords="1086,464,1196,539" href="park.html" title="AYYAPAKAM PARK">
-                <area shape="rect" coords="240,194,429,259" href="dance.html" title="RACK ACADEMY OF DANCE">       
-            </map>
-        </center>
+<img src="Screenshot (10).png" usemap="#image-map">
+
+<map name="image-map">
+    <area target="" alt="bakery" title="bakery" href="paary bakery.html" coords="820,328,52" shape="circle">
+    <area target="" alt="theater" title="theater" href="sri lakshmi theater.html" coords="781,546,652,481" shape="rect">
+    <area target="" alt="park" title="park" href="children park.html" coords="366,444,523,442,447,590" shape="poly">
+</map>
     </body>
 </html>
 
-home.html
+paary bakery.html
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Home</title>
-    <style>
-        body {
-            background-color: rgb(142, 175, 215);
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-                         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        h2 {
-            margin: 10px 0;
-        }
-
-        p {
-            font-size: 16px;
-            margin-top: 20px;
-        }
-
-        hr {
-            color: white;
-        }
-    </style>
+    <title>PARRY BAKERY</title>
 </head>
-<body>
-    <h2>MY SWEET HOME</h2>
-    <h2>PLACE OF COMFORT :</h2>
-    <hr>
-    <p>
-        My home is a place of peace, warmth, and love. It's where family comes together and memories are made. 
-        Whether it's enjoying meals, sharing laughter, or simply relaxing, my home provides comfort and security. 
-        It's well-organized and welcoming, with cozy rooms and a friendly atmosphere. 
-        More than just walls and a roof, it’s the heart of all our happiest moments.
+<body bgcolor="pink">
+
+    <h1 align="center">
+        <font color="red">PARRY BAKERY</font>
+    </h1>
+    <hr size="3" color="red">
+
+    <p align="justify">
+        Parry Bakery is a well-known bakery located in Arani, Tamil Nadu. It has been serving fresh and delicious 
+        baked goods for many years, and is a favorite among the local residents.
+        <br><br>
+
+        <b>Popular Items:</b><br><br>
+
+        <b>Breads and Buns:</b> Soft milk bread and sweet buns are some of the best-selling items.<br><br>
+
+        <b>Puffs and Pastries:</b> Crispy vegetable and chicken puffs, along with cream-filled pastries, are loved by all age groups.<br><br>
+
+        <b>Cakes:</b> Birthday cakes, anniversary cakes, and custom-themed cakes are available in chocolate, vanilla, butterscotch, and more.<br><br>
+
+        <b>Cookies and Snacks:</b> The bakery also offers a wide variety of biscuits and traditional Indian snacks.<br><br>
+
+        <b>Customer Experience:</b> Known for affordable pricing, fresh quality, and friendly staff. It’s a regular stop for students, families, and party planners in town.
     </p>
+
 </body>
 </html>
 
-hall.html
+children park.html
 
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Selvi Mahal Wedding Hall</title>
-    <style>
-        body {
-            background-color: #5594c7;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-                         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        h2 {
-            margin: 10px 0;
-            color: #000000;
-        }
-
-        p {
-            font-size: 16px;
-            margin-top: 20px;
-            color: #000000;
-        }
-
-        hr {
-            border: 1px solid #ba55d3;
-            width: 60%;
-            margin: 20px auto;
-        }
-    </style>
+    <title>SRI VENKATRAMAN PARK - ARNI</title>
 </head>
-<body>
-    <h2>SELVI MAHAL </h2>
-    <h2>PLACE OF CELEBRATION AND JOY :</h2>
-    <hr>
-    <p>
-        Selvi Mahal Hall is the perfect destination for unforgettable celebrations. 
-        With its elegant interiors, spacious halls, and excellent amenities, it offers a grand setting for weddings, receptions, and special events. 
-        Known for its warm hospitality and beautiful ambiance, Selvi Mahal brings families and friends together to create cherished memories. 
-        It's not just a venue—it's where love and tradition come alive.
+<body bgcolor="lightblue">
+
+    <h1 align="center">
+        <font color="red">VENKATRAMAN PARK</font>
+    </h1>
+    <hr size="3" color="black">
+
+    <p align="justify">
+        Venkatraman Park is a peaceful and well-known recreational spot located in Arni, Tamil Nadu. It serves as a great place 
+        for families, children, and morning walkers to relax and enjoy nature within the town.
+        <br><br>
+
+        <b><font color="darkgreen">Park Highlights:</font></b><br><br>
+
+        <b>Greenery:</b> The park is filled with trees, plants, and flowering bushes, providing fresh air and a pleasant environment.<br><br>
+
+        <b>Walking Path:</b> A neat and well-laid walking track is available for morning joggers and evening strollers.<br><br>
+
+        <b>Children's Play Area:</b> Includes swings, slides, and other fun play equipment for kids.<br><br>
+
+        <b>Benches & Sitting Areas:</b> Plenty of seating space is provided for elders and families to relax.<br><br>
+
+        <b>Location:</b> Easily accessible from different parts of Arni, it is a favorite spot for spending quiet evenings and weekends.<br><br>
+
+        <b>Cleanliness:</b> The park is generally well-maintained by the local municipality, encouraging people to visit regularly.
     </p>
+
 </body>
 </html>
 
-hospital.html
 
-<!DOCTYPE html>
-<html lang="en">
+sri lakshmi theater.html
+
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Virutcham Hospital</title>
-    <style>
-        body {
-            background-color: #d6eaf8;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        h2 {
-            margin: 10px 0;
-            color: #2c3e50;
-        }
-
-        p {
-            font-size: 16px;
-            margin-top: 20px;
-            color: #34495e;
-        }
-
-        hr {
-            border: 1px solid #2e86c1;
-            width: 60%;
-            margin: 20px auto;
-        }
-    </style>
+    <title>SRI LAKSHMI THEATER - ARNI</title>
 </head>
-<body>
-    <h2>VIRUTCHAM HOSPITAL</h2>
-    <h2>PLACE OF HEALING AND HOPE :</h2>
-    <hr>
-    <p>
-        Virutcham Hospital is a trusted name in healthcare, offering compassionate and comprehensive medical services. 
-        With a team of dedicated professionals and state-of-the-art facilities, it stands as a symbol of healing and care. 
-        Patients are treated with dignity, and every effort is made to ensure their comfort and recovery. 
-        More than a hospital, Virutcham is a place where hope is restored and lives are transformed.
+<body bgcolor="lavender">
+
+    <h1 align="center">
+        <font color="red">SRI LAKSHMI THEATER</font>
+    </h1>
+    <hr size="3" color="violet">
+
+    <p align="justify">
+        Sri Lakshmi Theater is one of the most popular cinema halls in Arni, Tamil Nadu. It is known for providing 
+        a great movie-watching experience with good sound and picture quality. The theater attracts both local residents 
+        and visitors from nearby areas.
+        <br><br>
+
+        <b>Features and Facilities:</b><br><br>
+
+        <b>Screen & Sound:</b> Equipped with a digital screen and modern sound system for an enhanced cinematic experience.<br><br>
+
+        <b>Seating:</b> Comfortable seating with decent leg space. The theater is divided into different classes for ticket pricing.<br><br>
+
+        <b>Movies:</b> Tamil, Telugu, and Hindi movies are regularly screened, including the latest blockbusters.<br><br>
+
+        <b>Snacks:</b> A small canteen is available with popcorn, beverages, and snacks at affordable prices.<br><br>
+
+        <b>Location:</b> Located conveniently within the town, making it easily accessible by walk or local transport.<br><br>
+
+        <b>Audience Experience:</b> Known for its decent maintenance and budget-friendly ticket rates, Sri Lakshmi Theater remains a favorite 
+        weekend destination for movie lovers in Arni.
     </p>
-</body>
-</html>
 
-park.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ayappakam Park</title>
-    <style>
-        body {
-            background-color: #5f89d6;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-                         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        h2 {
-            margin: 10px 0;
-            color: #000000;
-        }
-
-        p {
-            font-size: 16px;
-            margin-top: 20px;
-            color: #000000;
-        }
-
-        hr {
-            border: 1px solid #000000;
-            width: 60%;
-            margin: 20px auto;
-        }
-    </style>
-</head>
-<body>
-    <h2>AYAPPAKAM PARK</h2>
-    <h2>PLACE OF NATURE AND RELAXATION :</h2>
-    <hr>
-    <p>
-        Ayappakam Park is a green haven where people of all ages come to relax, play, and enjoy nature. 
-        Surrounded by trees and open spaces, it provides a peaceful environment away from the city's rush. 
-        With walking paths, play areas, and benches under the shade, it’s perfect for morning walks, family outings, or quiet reflection. 
-        Ayappakam Park is a cherished community space where health, harmony, and happiness flourish.
-    </p>
-</body>
-</html>
-
-school.html
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RACK Academy of Dance</title>
-    <style>
-        body {
-            background-color: #498fd5;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 
-                         'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            text-align: center;
-            padding: 20px;
-            line-height: 1.6;
-        }
-
-        h2 {
-            margin: 10px 0;
-            color: #000000;
-        }
-
-        p {
-            font-size: 16px;
-            margin-top: 20px;
-            color: #000000;
-        }
-
-        hr {
-            border: 1px solid #000000;
-            width: 60%;
-            margin: 20px auto;
-        }
-    </style>
-</head>
-<body>
-    <h2>RACK ACADEMY OF DANCE</h2>
-    <h2>PLACE OF RHYTHM AND EXPRESSION :</h2>
-    <hr>
-    <p>
-        RACK Academy of Dance is a hub of talent, creativity, and movement. 
-        With passionate instructors and a welcoming environment, it nurtures dancers of all ages and skill levels. 
-        Whether it's classical, contemporary, hip-hop, or fusion, RACK inspires every student to express themselves through the power of dance. 
-        It's more than just a dance school — it’s where passion meets performance and dreams take the stage.
-    </p>
 </body>
 </html>
 ```
+
 ## OUTPUT
-![alt text](<Screenshot 2025-05-02 161835.png>)
-![alt text](<Screenshot 2025-05-02 162001.png>)
-![alt text](<Screenshot 2025-05-02 201554.png>)
-![alt text](<Screenshot 2025-05-02 202014.png>)
-![alt text](<Screenshot 2025-05-02 202310.png>)
-![alt text](<Screenshot 2025-05-02 203002.png>)
-
-
-
-
+![image](https://github.com/user-attachments/assets/b6fccdc8-c429-4ee0-a825-79ae92c81246)
+![image](https://github.com/user-attachments/assets/65d23f55-f89d-4c16-970b-742609202f7c)
+![image](https://github.com/user-attachments/assets/a488dd9b-3cfa-46be-8f70-3a5ba7bfab2e)
+![image](https://github.com/user-attachments/assets/9c61b0ae-b687-404d-868c-80ec7169bc03)
 
 ## RESULT
 The program for implementing image maps using HTML is executed successfully.
